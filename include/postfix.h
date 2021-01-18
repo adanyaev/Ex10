@@ -3,4 +3,4 @@
 #pragma once
 #include <string>
 
-std::string infix2prefix(std::string s);
+std::string infix2postfix(std::string s);

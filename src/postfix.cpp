@@ -15,7 +15,7 @@ int getPriority(char c) {
   }
 }
 
-std::string infix2prefix(std::string s) {
+std::string infix2postfix(std::string s) {
   int i = 0;
   std::string output;
 
