@@ -1,6 +1,6 @@
 // Copyright 2021 Artem Danyaev
-#include "postfix.h"
 #include <iostream>
+#include "postfix.h"
 int main() {
   std::string s1("2 + 6 * 3 / (4 - 2)");
   std::string s2 = infix2prefix(s1);
